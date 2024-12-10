@@ -36,7 +36,7 @@ node -v npm -v
 
 1. Clone este repositório:
 
-git clone https://github.com/danilomota1988/Test_Cypress.git cd Test_Cypress
+git clone https://github.com/danilomota1988/Test_Cypress.git
 
 2. Instale as dependências do projeto:
 
