@@ -89,7 +89,3 @@ git checkout -b minha-nova-feature
 git push origin minha-nova-feature
 
 4. Crie um pull request na página do repositório.
-
-## Licença
-
-Este projeto está sob a licença MIT.
