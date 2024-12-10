@@ -36,8 +36,7 @@ node -v npm -v
 
 1. Clone este repositório:
 
-git clone https://github.com/danilomota1988/Test_Mouts.git cd Test_Mouts
-
+git clone https://github.com/danilomota1988/Test_Cypress.git
 
 2. Instale as dependências do projeto:
 
@@ -72,13 +71,11 @@ Para executar os testes e visualizar as interações na aplicação:
 
 npx cypress open
 
-
 ### No Modo Headless
 
 Para rodar os testes diretamente no terminal:
 
 npx cypress run
-
 
 ## Contribuição
 
@@ -87,11 +84,9 @@ npx cypress run
 
 git checkout -b minha-nova-feature
 
-
 3. Envie suas mudanças para revisão:
 
 git push origin minha-nova-feature
-
 
 4. Crie um pull request na página do repositório.
 
