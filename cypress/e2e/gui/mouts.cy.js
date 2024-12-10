@@ -27,9 +27,9 @@ describe('Testes Mouts', () => {
       cy.url().should('include', '/home');
       cy.get('[data-testid="cadastrar-usuarios"]').contains('Cadastrar Usuários').click();
       cy.get('h1').contains('Cadastro de usuários')
-      cy.get('[data-testid="nome"]').should('be.visible').type('Usuario Test 3');
-      cy.get('[data-testid="email"]').should('be.visible').type('user03test@test.com');
-      cy.get('[data-testid="password"]').should('be.visible').type('UserTest@#3');
+      cy.get('[data-testid="nome"]').should('be.visible').type('Usuario Test 6');
+      cy.get('[data-testid="email"]').should('be.visible').type('user06test@test.com');
+      cy.get('[data-testid="password"]').should('be.visible').type('UserTest@#6');
       cy.get('[data-testid="cadastrarUsuario"]').should('be.visible').click({ force: true })
       cy.get('h1').contains('Lista dos usuários')
       cy.screenshot();
@@ -42,9 +42,9 @@ describe('Testes Mouts', () => {
       cy.url().should('include', '/home');
       cy.get('[data-testid="cadastrar-usuarios"]').contains('Cadastrar Usuários').click();
       cy.get('h1').contains('Cadastro de usuários')
-      cy.get('[data-testid="nome"]').should('be.visible').type('Usuario Test 3');
-      cy.get('[data-testid="email"]').should('be.visible').type('user03test@test.com');
-      cy.get('[data-testid="password"]').should('be.visible').type('UserTest@#3');
+      cy.get('[data-testid="nome"]').should('be.visible').type('Usuario Test 6');
+      cy.get('[data-testid="email"]').should('be.visible').type('user06test@test.com');
+      cy.get('[data-testid="password"]').should('be.visible').type('UserTest@#6');
       cy.get('[data-testid="cadastrarUsuario"]').should('be.visible').click({ force: true })
       cy.get('.alert > :nth-child(2)').contains('Este email já está sendo usado')
       cy.screenshot();
