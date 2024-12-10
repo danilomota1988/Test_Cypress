@@ -1,4 +1,4 @@
-describe('Testes Mouts', () => {
+describe('Testes Cypress', () => {
   beforeEach(() => {
     cy.fixture('cypress.env.json').then((userData) => {
       cy.wrap(userData).as('userData');

@@ -1,5 +1,5 @@
 {
-  "name": "test_mouts",
+  "name": "test_cypress",
   "version": "1.0.0",
   "description": "This is a test repository",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danilomota1988/Test_Mouts.git"
+    "url": "git+https://github.com/danilomota1988/Test_cypress.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danilomota1988/Test_Mouts/issues"
+    "url": "https://github.com/danilomota1988/Test_cypress/issues"
   },
-  "homepage": "https://github.com/danilomota1988/Test_Mouts#readme",
+  "homepage": "https://github.com/danilomota1988/Test_cypress#readme",
   "devDependencies": {
     "cypress": "^13.16.1"
   }
